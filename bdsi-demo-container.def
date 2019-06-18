@@ -1,0 +1,18 @@
+Bootstrap: library
+From: ubuntu:18.04
+
+%files
+    requirements.yml /root/requirements.yml
+
+%environment
+    export LC_ALL=C
+    export PATH="/usr/local/bin:$PATH"
+
+%post
+    apt update && apt install -y \
+      build-essential \
+      python3 \
+      wget
+    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+    bash Miniconda3-latest-Linux-x86_64.sh -b
+    /root/miniconda3/bin/conda env create -f /root/requirements.yml -p /usr/local
