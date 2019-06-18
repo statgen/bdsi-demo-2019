@@ -23,19 +23,19 @@ snakemake --use-conda -j 2
 ## Links
 
 Conda:
-https://conda.io/docs/user-guide/install/index.html
+* * * * * * * * https://conda.io/docs/user-guide/install/index.html
 
 Snakemake:
-https://snakemake.readthedocs.io/en/stable/getting_started/installation.html
+* https://snakemake.readthedocs.io/en/stable/getting_started/installation.html
 
 Jupyter notebooks:
-http://jupyter.org/install
+* http://jupyter.org/install
 
 Containers:
-https://www.sylabs.io/guides/3.2/user-guide/
-https://docs.docker.com/docker-for-mac/install/
-https://docs.docker.com/docker-for-windows/install/
+* https://www.sylabs.io/guides/3.2/user-guide/
+* https://docs.docker.com/docker-for-mac/install/
+* https://docs.docker.com/docker-for-windows/install/
 
 RStudio:
-https://www.rstudio.com/products/rstudio/download/#download
+* https://www.rstudio.com/products/rstudio/download/#download
 
