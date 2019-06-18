@@ -1,6 +1,6 @@
 # BDSI Reproducible Research 2019
 
-The repo was used to demo git during the BDSI session on reproducible research. This repo will exist as a reference for the remainder of the summer.
+This repo was used to demo git during the BDSI session on reproducible research. This repo will exist as a reference for the remainder of the summer.
 
 ## Topics Discussed
 
