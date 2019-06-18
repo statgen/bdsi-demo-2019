@@ -23,7 +23,7 @@ snakemake --use-conda -j 2
 ## Links
 
 Conda:
-* * * * * * * * https://conda.io/docs/user-guide/install/index.html
+*  https://conda.io/docs/user-guide/install/index.html
 
 Snakemake:
 * https://snakemake.readthedocs.io/en/stable/getting_started/installation.html
