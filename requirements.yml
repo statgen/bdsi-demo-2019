@@ -1,4 +1,4 @@
-name: bdsi-demo
+name: bdsi-demo-change
 channels:
   - bioconda
   - conda-forge
