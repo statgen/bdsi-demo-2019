@@ -17,7 +17,9 @@ echo "# Title" >> README.md
 git init
 git add README.md
 git commit -a # and fill in commit message
-git remote add origin https://github.com/jonathonl/test.git
+
+# Then next two steps will link your local repo with a remote on Github and only need to be ran once.
+git remote add origin https://github.com/<your_account>/<repo_name>.git
 git push --set-upstream origin master
 ```
 
