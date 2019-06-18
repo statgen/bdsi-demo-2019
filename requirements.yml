@@ -1,8 +1,7 @@
-name: bdsi-demo-change
+name: bdsi-demo
 channels:
   - bioconda
   - conda-forge
 dependencies:
   - bcftools=1.9
   - grep=2.14
-#  - coreutils
