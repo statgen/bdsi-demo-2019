@@ -10,15 +10,31 @@ The repo was used to demo git during the BDSI session on reproducible research. 
 * Capturing the computational environemnt
 * Automation
 
+## How to add a project to Github 
+
+```shell
+echo "# Title" >> README.md
+git init
+git add README.md
+git commit -a # and fill in commit message
+git remote add origin https://github.com/jonathonl/test.git
+git push --set-upstream origin master
+```
+
+
 ## How to run Snakemake pipeline
 
-See link below for instructions on how to install Snakemake.
+See link below for instructions on how to install Snakemake. The pipeline performs the following steps:
+
+1. Subsets a few chromosomes of public [1000 Genomes](http://www.internationalgenome.org/about) data.
+2. Generates allele frequency stats from the subsets for each chromosome.
+3. Merges the per-chromosome stats into a single file.
+4. Generates a plot from the merged file.
 
 ```shell
 # Runs a maximum of 2 jobs in parallel
 snakemake --use-conda -j 2 
 ```
-
 
 ## Links
 
