@@ -4,4 +4,5 @@ channels:
   - conda-forge
 dependencies:
   - bcftools=1.9
+  - gnuplot=5.0.4
   - grep=2.14

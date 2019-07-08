@@ -8,6 +8,11 @@ region_string = "9000001-12000000"
 ftp_location = "ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/supporting/bcf_files/ALL.chr{chromosome}.phase3_shapeit2_mvncall_integrated_v5.20130502.genotypes.bcf"
 
 
+rule all:
+  input:
+    "out/merged-stats.tsv"
+
+
 # Subsets the BCF files to region specified in region_string so that
 # the pipeline runs more quickly.
 rule subset:
