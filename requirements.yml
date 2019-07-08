@@ -1,8 +1,8 @@
 name: bdsi-demo
 channels:
-  - bioconda
   - conda-forge
+  - bioconda
 dependencies:
   - bcftools=1.9
-  - gnuplot=5.0.4
+  - conda-forge::gnuplot=5.2.7
   - grep=2.14

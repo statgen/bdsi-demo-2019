@@ -1,6 +1,6 @@
 
 configfile: "config.yml"
-singularity: "library://jonathonl/default/bdsi-demo:v1.0.0"
+singularity: "library://jonathonl/default/bdsi-demo:v1.0.1"
 
 conda_env = "requirements.yml"
 
